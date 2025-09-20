@@ -58,11 +58,3 @@ This repository provides code for training and evaluating graph neural network m
 
 - Place the CROHME dataset files in the `data/` directory as referenced in the scripts.
 - The repository expects subfolders like `Test2014_primitive_json`, `Crohme_all_LGs`, etc.
-
-## Citation
-
-If you use this code, please cite the original authors and the CROHME dataset.
-
-## License
-
-MIT License (or specify if different).
