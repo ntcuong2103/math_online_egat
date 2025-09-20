@@ -36,7 +36,7 @@ Our approach shifts from complex stroke-level representations to more efficient 
     pip install torch dgl pytorch-lightning wandb tqdm pandas numpy networkx
     ```
 
-3.  Prepare the **CROHME dataset** (2014, 2016, 2019). Place the JSON, LG, and INKML files into the `data/` directory, following the expected subfolder structure (e.g., `data/Test2014_primitive_json`, `data/Crohme_all_LGs`, etc.).
+3.  Prepare the **CROHME dataset** (2014, 2016, 2019), compose of the symbol-level graph (JSON), label graph (LG), and INKML files into the `data/` directory, following the expected subfolder structure (e.g., `data/Test2014_primitive_json`, `data/Crohme_all_LGs`, etc.).
 
 ## Usage
 
