@@ -1,0 +1,12 @@
+# JSON_LOS
+python test_folder.py --checkpoint math-graph-attention/wxjgvteg/checkpoints/epoch=20-val_link_acc=0.9442.ckpt --input_jsons data/Test2014_primitive_json --input_lgs data/Crohme_all_LGs --input_inkmls data/Test2014 --mode JSON_LOS --output result_test2014_json_los.csv
+python test_folder.py --checkpoint math-graph-attention/wxjgvteg/checkpoints/epoch=20-val_link_acc=0.9442.ckpt --input_jsons data/Test2016_primitive_json --input_lgs data/Crohme_all_LGs --input_inkmls data/Test2016 --mode JSON_LOS --output result_test2016_json_los.csv
+python test_folder.py --checkpoint math-graph-attention/wxjgvteg/checkpoints/epoch=20-val_link_acc=0.9442.ckpt --input_jsons data/Test2019_primitive_json --input_lgs data/Crohme_all_LGs --input_inkmls data/Test2019 --mode JSON_LOS --output result_test2019_json_los.csv
+# JSON_ONLY
+python test_folder.py --checkpoint math-graph-attention/1p6v4x51/checkpoints/epoch=9-val_link_acc=0.9406.ckpt --input_jsons data/Test2014_primitive_json --input_lgs data/Crohme_all_LGs --input_inkmls data/Test2014 --mode JSON_ONLY --output result_test2014_json_only.csv
+python test_folder.py --checkpoint math-graph-attention/1p6v4x51/checkpoints/epoch=9-val_link_acc=0.9406.ckpt --input_jsons data/Test2016_primitive_json --input_lgs data/Crohme_all_LGs --input_inkmls data/Test2016 --mode JSON_ONLY --output result_test2016_json_only.csv
+python test_folder.py --checkpoint math-graph-attention/1p6v4x51/checkpoints/epoch=9-val_link_acc=0.9406.ckpt --input_jsons data/Test2019_primitive_json --input_lgs data/Crohme_all_LGs --input_inkmls data/Test2019 --mode JSON_ONLY --output result_test2019_json_only.csv
+# LOS_ONLY
+python test_folder.py --checkpoint math-graph-attention/shf40gqq/checkpoints/epoch=22-val_link_acc=0.9768.ckpt --input_jsons data/Test2014_primitive_json --input_lgs data/Crohme_all_LGs --input_inkmls data/Test2014 --mode LOS_ONLY --output result_test2014_los_only.csv
+python test_folder.py --checkpoint math-graph-attention/shf40gqq/checkpoints/epoch=22-val_link_acc=0.9768.ckpt --input_jsons data/Test2016_primitive_json --input_lgs data/Crohme_all_LGs --input_inkmls data/Test2016 --mode LOS_ONLY --output result_test2016_los_only.csv
+python test_folder.py --checkpoint math-graph-attention/shf40gqq/checkpoints/epoch=22-val_link_acc=0.9768.ckpt --input_jsons data/Test2019_primitive_json --input_lgs data/Crohme_all_LGs --input_inkmls data/Test2019 --mode LOS_ONLY --output result_test2019_los_only.csv

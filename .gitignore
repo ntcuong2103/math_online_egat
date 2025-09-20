@@ -1,0 +1,11 @@
+*.json
+*.inkml
+*.lg
+*.dot
+*.pyc
+checkpoint/*
+*.ckpt
+*.pkl
+*.log
+wandb/
+*.csv
