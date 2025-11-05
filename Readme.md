@@ -1,3 +1,5 @@
+[![arXiv](https://img.shields.io/badge/arXiv-2511.02288-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2511.02288)
+
 # Link Prediction with Graph Neural Networks for Handwritten Mathematical Expression Recognition
 
 This repository contains the official source code and experimental setup for the paper: **"Link prediction Graph Neural Networks for structure recognition of Handwritten Mathematical Expressions"**.
